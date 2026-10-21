@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # 30：安装 AppDim（自维护的窗口变暗工具，替代停更的 AppDimmer）
-# 从 GitHub Release 拉取最新 zip，解压到 /Applications
+# 下载 release zip，解压到 /Applications；升级时把 URL 换成新版直链即可
 set -euo pipefail
 
-REPO="Visero/AppDim"
-URL="https://github.com/$REPO/releases/latest/download/AppDim-1.0.0.zip"
+URL="https://github.com/Visero/AppDim/releases/download/v1.1.0/AppDim-1.1.0.zip"
 TMP="$(mktemp -d)"
 
 echo "== 下载 AppDim：$URL"
