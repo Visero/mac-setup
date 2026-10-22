@@ -3,7 +3,7 @@
 # 下载 release zip，解压到 /Applications；升级时把 URL 换成新版直链即可
 set -euo pipefail
 
-URL="https://github.com/Visero/AppDim/releases/download/v1.1.0/AppDim-1.1.0.zip"
+URL="https://github.com/Visero/AppDim/releases/download/v1.1.1/AppDim-1.1.1.zip"
 TMP="$(mktemp -d)"
 
 echo "== 下载 AppDim：$URL"
