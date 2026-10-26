@@ -26,12 +26,11 @@ cat <<'EOF'
 ================ 自动部分完成 ================
 还需手动完成（付费 / App Store / 官网）：
   · Magnet（App Store，窗口分屏）
-  · iStat Menus（官网付费，可选：免费替代 Stats 已自动安装）
+  · iStat Menus（官网，可选：免费替代 Stats 已自动安装）
   · BetterTouchTool 配置从旧机导出导入
   · Unclutter（官网，付费）
   · Scroll Reverser 已由 brew 安装，按需在设置里反转鼠标滚轮
   · iTerm2 已安装，首次打开会引导 Powerlevel10k 主题
-  · 常用软件（浏览器/笔记/办公/沟通）见 README「常用软件参考」
-新机首次使用记得到「系统设置 → 隐私与安全性」授予权限，见 README 权限清单。
+  · Clash Verge Rev 已安装，导入你自己的订阅链接
 ==============================================
 EOF

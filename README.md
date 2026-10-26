@@ -28,6 +28,8 @@ Dock / 时钟系统调优。过程中按提示输入开机密码即可。
 | BetterTouchTool | 手势 / 触控板 / 窗口 / 快捷键全能 | 试用版；配置需从旧机导出后导入 |
 | Stats | 菜单栏系统监控（开源，替代付费 iStat Menus） | CPU/内存/网络/传感器/电池，建议开机自启 |
 | iTerm2 | 终端（替代系统 Terminal） | 脚本自动配好 zsh 美化 |
+| Arc | 浏览器（官方 2026-12-22 停服） | 停服后换 Dia / Zen Browser |
+| Clash Verge Rev | 代理客户端（ClashX 现代继任） | 导入自己的订阅链接 |
 | AppDim | 指定 App 窗口变暗（自维护，替代停更的 AppDimmer） | 脚本从 Release 拉取，首次右键 → 打开 |
 
 对应 cask 见 [`Brewfile`](Brewfile)。
@@ -40,17 +42,6 @@ Dock / 时钟系统调优。过程中按提示输入开机密码即可。
 | iStat Menus 6 | CPU / 内存 / 温度监控（可选） | 官网（付费） | 已有免费开源替代 **Stats**（已自动安装），仅在需要更精细传感器/历史图时再装 |
 | BetterTouchTool | 手势 / 全能控制 | 官网 / SetApp（付费） | brew 装的是试用版，正式授权在此 |
 | Unclutter | 屏幕顶部滑出面板（剪贴板 / 文件 / 记事） | 官网（付费） | — |
-
-## 常用软件参考（按需自行安装）
-
-| 类别 | 应用 |
-|---|---|
-| 笔记 | Obsidian（第二大脑库）、Craft、MarginNote 3、Goodnotes |
-| 浏览器 | Arc（主用）、Google Chrome |
-| 终端 / 开发 | iTerm、Visual Studio Code、IntelliJ IDEA、PyCharm、CLion、Trae CN、Xcode |
-| AI 客户端 | Doubao、DoubaoWork、Cherry Studio、DeepSeek |
-| 沟通 / 办公 | WeChat、Lark、Microsoft Office 全家桶、WPS、TencentMeeting |
-| 其他 | ClashX（代理）、OneDrive、极空间、Logi G HUB、SteelSeries GG |
 
 ## 系统调优（脚本完成）
 
@@ -65,15 +56,6 @@ killall ControlCenter
 ```
 
 > 想调 Dock 弹出动画速度：`defaults write com.apple.dock autohide-time-modifier -float 0.2`（0.2 最快，0.5 适中）。
-
-## 权限清单（新机首次使用需在「系统设置 → 隐私与安全性」授予）
-
-| 权限 | 涉及应用 |
-|---|---|
-| 屏幕录制 | Thaw、AppDim（读取窗口 / 菜单栏图标必需） |
-| 辅助功能 | BetterTouchTool、Scroll Reverser |
-| 输入监控 | Scroll Reverser（监听滚轮） |
-| 通知 / 后台 | Stats、Maccy |
 
 ## 终端 / zsh 美化（脚本完成）
 

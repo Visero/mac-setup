@@ -28,3 +28,9 @@ cask "iterm2"
 
 # Powerlevel10k 推荐字体（zsh 美化用）
 cask "font-meslo-lg-nerd-font"
+
+# 浏览器：Arc（官方 2026-12-22 停服后会失效，届时换 Dia / Zen）
+cask "arc"
+
+# 代理客户端：Clash Verge Rev（ClashX 的现代继任，跨平台）
+cask "clash-verge-rev"
