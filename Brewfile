@@ -20,6 +20,9 @@ cask "scroll-reverser"
 # 手势 / 触控板 / 窗口 / 快捷键（试用，配置需从旧机导出后导入）
 cask "bettertouchtool"
 
+# 窗口贴边 / 半屏分屏（Magnet 的开源替代；默认触发键 ⌘+方向，建议在设置里改成 ⌘⌥+方向）
+cask "loop"
+
 # 菜单栏系统监控（开源，替代付费 iStat Menus：CPU/内存/网络/传感器/电池）
 cask "stats"
 

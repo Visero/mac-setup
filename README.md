@@ -26,6 +26,7 @@ Dock / 时钟系统调优。过程中按提示输入开机密码即可。
 | ImageOptim | 图片体积压缩 | |
 | Scroll Reverser | 鼠标 / 触控板滚轮方向独立反转 | brew 版已带签名，无需手动清理 `._` 残留 |
 | BetterTouchTool | 手势 / 触控板 / 窗口 / 快捷键全能 | 试用版；配置需从旧机导出后导入 |
+| Loop | 窗口贴边 / 半屏分屏（Magnet 开源替代） | 默认触发键 ⌘+方向，建议在设置里把 Modifier 改成 ⌘⌥+方向 |
 | Stats | 菜单栏系统监控（开源，替代付费 iStat Menus） | CPU/内存/网络/传感器/电池，建议开机自启 |
 | iTerm2 | 终端（替代系统 Terminal） | 脚本自动配好 zsh 美化 |
 | Arc | 浏览器（官方 2026-12-22 停服） | 停服后换 Dia / Zen Browser |
@@ -38,7 +39,6 @@ Dock / 时钟系统调优。过程中按提示输入开机密码即可。
 
 | 应用 | 用途 | 安装方式 | 备注 |
 |---|---|---|---|
-| Magnet | 窗口分屏 / 快捷键排布 | App Store（付费，需恢复购买） | 快捷键自定义 |
 | iStat Menus 6 | CPU / 内存 / 温度监控（可选） | 官网（付费） | 已有免费开源替代 **Stats**（已自动安装），仅在需要更精细传感器/历史图时再装 |
 | BetterTouchTool | 手势 / 全能控制 | 官网 / SetApp（付费） | brew 装的是试用版，正式授权在此 |
 | Unclutter | 屏幕顶部滑出面板（剪贴板 / 文件 / 记事） | 官网（付费） | — |
@@ -87,6 +87,6 @@ mac-setup/
 
 ## 备注
 
-- 付费软件 Magnet、iStat Menus、BetterTouchTool、Unclutter 需在新机重新购买 / 恢复授权；其中 iStat Menus 可用已自动安装的开源 Stats 替代。
+- 付费软件 iStat Menus、BetterTouchTool、Unclutter 需在新机重新购买 / 恢复授权；其中 iStat Menus 可用已自动安装的开源 Stats 替代。
 - Arc 自定义玻璃图标素材与脚本需从旧机项目目录复用，本仓库不含。
 - 本清单不含文件同步类工具（Syncthing / SyncTime / FreeFileSync）、CC Switch、Snipaste。
