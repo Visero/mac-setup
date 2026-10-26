@@ -19,3 +19,12 @@ cask "scroll-reverser"
 
 # 手势 / 触控板 / 窗口 / 快捷键（试用，配置需从旧机导出后导入）
 cask "bettertouchtool"
+
+# 菜单栏系统监控（开源，替代付费 iStat Menus：CPU/内存/网络/传感器/电池）
+cask "stats"
+
+# 终端（替代系统 Terminal）
+cask "iterm2"
+
+# Powerlevel10k 推荐字体（zsh 美化用）
+cask "font-meslo-lg-nerd-font"
