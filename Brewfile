@@ -2,6 +2,9 @@
 # 用法：brew bundle --file Brewfile
 # 付费 / 官网 / App Store 应用见 README「手动安装」一节
 
+# 菜单栏图标折叠 / 隐藏（Thaw 的开源替代，分隔符拖拽式）
+cask "hiddenbar"
+
 # 剪贴板历史管理（开源），建议全局快捷键 ⌘⇧V
 cask "maccy"
 
