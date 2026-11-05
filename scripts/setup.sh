@@ -26,11 +26,13 @@ cat <<'EOF'
 ================ 自动部分完成 ================
 还需手动完成（付费 / App Store / 官网）：
   · iStat Menus（官网，可选：免费替代 Stats 已自动安装）
+  · DeepSeek Harness（官网下载：https://www.deepseek.com/download/）
   · Scroll Reverser 已由 brew 安装，按需在设置里反转鼠标滚轮
   · Crest 已安装，首次打开按提示初始化并导入书签
   · Clash Verge Rev 已安装，导入你自己的订阅链接
   · Loop 已由 brew 安装，首次打开把触发键 Modifier 改成 ⌘⌥+方向
   · 终端首次打开会引导 Powerlevel10k 主题
+  · 自己写的 App（AppDim 已装；DevKit、mac-kit 见 README「自己写的 App」）
 不装（曾经使用）：BetterTouchTool、Arc、Unclutter、iTerm2
 ==============================================
 EOF

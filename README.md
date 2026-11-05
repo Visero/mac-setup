@@ -29,7 +29,6 @@ Dock / 时钟系统调优。过程中按提示输入开机密码即可。
 | Stats | 菜单栏系统监控（开源，替代付费 iStat Menus） | CPU/内存/网络/传感器/电池，建议开机自启 |
 | Crest | 浏览器（开源，Arc 的替代） | 需 macOS 26+ / Apple Silicon；首次打开按提示初始化并导入书签 |
 | Clash Verge Rev | 代理客户端（ClashX 现代继任） | 导入自己的订阅链接 |
-| AppDim | 指定 App 窗口变暗（自维护，替代停更的 AppDimmer） | 脚本从 Release 拉取，首次右键 → 打开 |
 
 对应 cask 见 [`Brewfile`](Brewfile)。
 
@@ -37,7 +36,18 @@ Dock / 时钟系统调优。过程中按提示输入开机密码即可。
 
 | 应用 | 用途 | 安装方式 | 备注 |
 |---|---|---|---|
+| DeepSeek Harness | AI 桌面端（长任务 / 代码 / 文档） | 官网 https://www.deepseek.com/download/ | 需 macOS 13+ / Apple Silicon；内置自动更新 |
 | iStat Menus 6 | CPU / 内存 / 温度监控（可选） | 官网（付费） | 已有免费开源替代 **Stats**（已自动安装），仅在需要更精细传感器/历史图时再装 |
+
+## 自己写的 App
+
+都是本人维护的 macOS 原生应用，按需自行构建安装：
+
+| 应用 | 用途 | 安装 | 仓库 |
+|---|---|---|---|
+| AppDim | 指定 App 窗口变暗（替代停更的 AppDimmer） | 脚本从 Release 拉取，首次右键 → 打开 | https://github.com/Visero/app-dim |
+| DevKit | 原生 macOS 开发者工具箱（SwiftUI + AppKit） | clone 后自行构建 | https://github.com/Visero/dev-kit |
+| mac-kit | 菜单栏全局快捷键启动 / 切换 App | `cd mac-kit && ./build.sh` | https://github.com/Visero/mac-kit |
 
 ## 曾经使用（不用安装）
 
