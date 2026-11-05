@@ -63,7 +63,7 @@ alias gs="git status"
 alias gc="git checkout"
 alias ..g="cd .."
 
-# ---- Powerlevel10k 配置（首次打开 iTerm2 会运行引导向导） ----
+# ---- Powerlevel10k 配置（首次打开终端会运行引导向导） ----
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 EOF
 fi
@@ -74,4 +74,4 @@ if [ "$SHELL" != "$(command -v zsh)" ]; then
   chsh -s "$(command -v zsh)" || true
 fi
 
-echo "== 完成：重新打开 iTerm2，首次会进入 Powerlevel10k 配置向导。"
+echo "== 完成：重新打开终端，首次会进入 Powerlevel10k 配置向导。"

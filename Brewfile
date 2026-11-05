@@ -17,23 +17,17 @@ cask "imageoptim"
 # 鼠标 / 触控板滚轮方向独立反转（brew cask 已含，无需手动清理签名坑）
 cask "scroll-reverser"
 
-# 手势 / 触控板 / 窗口 / 快捷键（试用，配置需从旧机导出后导入）
-cask "bettertouchtool"
-
 # 窗口贴边 / 半屏分屏（Magnet 的开源替代；默认触发键 ⌘+方向，建议在设置里改成 ⌘⌥+方向）
 cask "loop"
 
 # 菜单栏系统监控（开源，替代付费 iStat Menus：CPU/内存/网络/传感器/电池）
 cask "stats"
 
-# 终端（替代系统 Terminal）
-cask "iterm2"
-
 # Powerlevel10k 推荐字体（zsh 美化用）
 cask "font-meslo-lg-nerd-font"
 
-# 浏览器：Arc（官方 2026-12-22 停服后会失效，届时换 Dia / Zen）
-cask "arc"
+# 浏览器：Crest（开源，Arc 的替代）
+cask "crest-browser"
 
 # 代理客户端：Clash Verge Rev（ClashX 的现代继任，跨平台）
 cask "clash-verge-rev"
